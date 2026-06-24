@@ -6,7 +6,4 @@ export default defineConfig({
   resolve: {
     dedupe: ['react', 'react-dom'],
   },
-  optimizeDeps: {
-    include: ['recharts', 'react', 'react-dom'],
-  },
 })
